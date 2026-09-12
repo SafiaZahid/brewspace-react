@@ -1,7 +1,9 @@
 const Footer = ()  => {
     return (
-        <p>© 2026 Company, Inc. All rights reserved.</p>
+        
+        <footer className='bg-body-tertiary '>
+        <p className="text-center py-5 text-body-secondary mb-0 ">© 2026 Brewspace</p>
+        </footer>
     )
 }
-
 export default Footer;
