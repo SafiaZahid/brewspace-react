@@ -1,6 +1,6 @@
 import Navbar from "./Components/Navbar";
-import CoffeeCard from "./Components/CoffeeCard";
 import Footer from "./Components/Footer";
+import Cards from "./Components/Cards";
 
 const App = () => {
   return (
@@ -17,20 +17,9 @@ const App = () => {
       </section>
 
       <section>
-        <div className="container">
-          <div className="row g-4">
-            <div className="col-md-4">
-              <CoffeeCard />
-            </div>
-
-            <div className="col-md-4">
-              <CoffeeCard />
-            </div>
-            <div className="col-md-4">
-              <CoffeeCard />
-            </div>
-          </div>
-        </div>
+        
+              <Cards />
+            
       </section>
 
       <Footer />
