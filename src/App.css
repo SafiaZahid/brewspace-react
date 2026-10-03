@@ -2,3 +2,22 @@
   height: 220px;
   object-fit: cover;
 }
+
+.signup-btn{
+  background-color: #E85D3F;
+  color: white;
+  border: none;
+}
+.signup-btn:hover {
+  background-color: #C9472D;
+  color: white;
+}
+
+.navbar .nav-link {
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.navbar .nav-link:hover {
+  color: #E85D3F;
+}

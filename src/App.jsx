@@ -1,6 +1,8 @@
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
 import Cards from "./Components/Cards";
+import SignupForm from "./Components/SignupForm";
+import "./App.css";
 
 const App = () => {
   return (
@@ -16,11 +18,17 @@ const App = () => {
         <button type="button" className="btn btn-outline-info  px-4 my-4 me-sm-3 fw-bold">Explore Menu</button>
       </section>
 
+      
       <section>
         
               <Cards />
             
       </section>
+
+      <section>
+        <SignupForm />
+      </section>
+
 
       <Footer />
     </>
